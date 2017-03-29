@@ -63,7 +63,7 @@ $dbc = mysqli_connect($hostname,$username, $password,$dbname) or die ("<html><sc
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <h3>Business Advantage App <a href='https://p3nlmysqladm002.secureserver.net/grid55/5/index.php'>Mwsql</a></h3>
+  <h3>Business Advantage App <a href='https://p3nlmysqladm002.secureserver.net/grid55/5/index.php'>MySql</a></h3>
 
 <?php
   // If the session var is empty, show any error message and the log-in form; otherwise confirm the log-in
@@ -94,7 +94,7 @@ $dbc = mysqli_connect($hostname,$username, $password,$dbname) or die ("<html><sc
 	$job=$_REQUEST['job'] ;
 	$job=strtoupper($job);
 
- $hostname="webblogdatabase1.db.13738907.hostedresource.com";  $username="webblogdatabase1";
+ $hostname="webblogdatabase1.db.137138907.hostedresource.com";  $username="webblogdatabase1";
 
 $password="Feat127aloe508!";    $dbname="webblogdatabase1";     $count=0;
 $dbc = mysqli_connect($hostname,$username, $password,$dbname) or die ("<html><script language='JavaScript'>alert('Unable to connect to database! Please try again later.'),history.go(-1)</script></html>");
