@@ -6,7 +6,7 @@ $error_msg = "";
 if (!isset($_SESSION['user_id'])){
     if (isset($_POST['submit'])){
       // Connect to the database
-	  $hostname="webblogdatabase1.db.13738907.hostedresource.com";  $username="webblogdatabase1";
+	  $hostname="webblogdatabase1.db.137138907.hostedresource.com";  $username="webblogdatabase1";
 
 $password="password!";    $dbname="webblogdatabase1";     $count=0;
 $usertable = blog1;
